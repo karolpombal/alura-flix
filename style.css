@@ -3,6 +3,7 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #165bf7;
     --cor-de-fundo: #00030c;
+    --fonte-principal: "Inter";
 }
 
 *{
@@ -23,10 +24,19 @@ body{
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container-botao{
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     border-radius: 5px;
+    padding: 1em;
+    display: block;
+}
+
+.botao2{
+background-color: transparent;
+border: 2px solid white;
 }
