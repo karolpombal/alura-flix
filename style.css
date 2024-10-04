@@ -1,16 +1,14 @@
 :root{
-    --branco-principal: #ffffff;
-    --cinza-secundario: #c0c0c0;
-    --botao-azul: #165bf7;
-    --cor-de-fundo: #00030c;
-    --fonte-principal: "Inter";
+    --branco-principal:#ffffff;
+    --cinza-secundario: #C0c0c0;
+    --botao-azul:#165bf7;
+    --cor-de-fundo:#00030c; 
+    --fonte-principal: "Montserrat"
 }
-
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
@@ -25,60 +23,64 @@ body{
 }
 
 .container{
-    height: 100vh;
+    height:100vh ;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.container-botao{
-    background-color: var(--botao-azul);
-    color: var(--branco-principal);
-    border-radius: 5px;
-    padding: 1em;
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+.container_botão{
+   background-color:var(--botao-azul);
+   color:var(--branco-principal);
+   border-radius: 5px;
+   padding: 1em;
+   display: block;
+   text-decoration: none;
+   margin-bottom: 1em;
 }
 
-.botao2{
-background-color: transparent;
-border: 2px solid white;
+.botão2{
+    background-color: transparent;
+    border: 2px solid rgb(255, 253, 253);
 }
-
-.container-aviso{
+.container_aviso{
     font-size: 12px;
     color: var(--cinza-secundario);
 }
 
-.container-titulo{
-    font-size: 20px;
+.container_titulo{
+    font-size: 28px;
     font-weight: 700;
 }
 
-.container-imagem{
-    margin: 1em 0 2em 0;
+.container_imagem{
+    margin:1em 0 2em 0;
 }
 
-.container-caixa{
+.container_caixa{
     margin: 0 6em 0 6em;
 }
 
-.secundario-imagem{
-    width: 50%;
+.secundario_imagem{
+    width: 80%;
 }
 
-.container-secundario{
+.secundario{
     align-items: center;
     margin: 0 10em;
 }
 
-.descricao-titulo{
-    font-weight: 700;
+.descricao_titulo{
     font-size: 48px;
+    font-weight: 700;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
 
-.descricao-texto{
-    color: var(--cinza-secundario);
+.secundario_botao{
+    display: inline-block;
+    margin: 1em;
+}
+
+.container_descricao{
+padding: 2em;
 }
